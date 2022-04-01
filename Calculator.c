@@ -285,8 +285,6 @@ higherPriority(char *oldOp, char *newOp)
 
 // This function executes the specified operation 
 //  It's arguments are the first two values on the data stack
-//  You must carefully analyize it and add the necessary code
-//  to allocate and deallocte the necessary memory items 
 int
 runOperation(char *op, Stack dataStack)
 {
